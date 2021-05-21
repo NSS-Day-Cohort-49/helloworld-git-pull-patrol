@@ -1,0 +1,27 @@
+.navBar {
+  border: solid black;
+  text-align: center;
+}
+
+.links_images {
+  display: flex;
+  border: solid green;
+}
+
+.img_column_left {
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+}
+
+.img_column_middle {
+  display: flex;
+  flex-direction: column;
+  border: solid blue;
+}
+
+.img_column_right {
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+}
