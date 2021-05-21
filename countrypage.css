@@ -1,0 +1,18 @@
+.clz {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cities {
+    margin: 5px;
+}
+
+.landmark {
+    margin: 5px;
+}
+
+.citizens {
+    margin: 5px;
+}
+
+
