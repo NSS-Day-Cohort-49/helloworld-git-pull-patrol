@@ -1,4 +1,15 @@
+header{
+  display: flex;
+}
+.navImg{
+  flex: 1;
+  max-width: fit-content;
+}
+.navImg img{
+  width: 8em;
+}
 .navBar {
+  flex: 3;
   border: solid black;
   text-align: center;
 }
