@@ -1,5 +1,15 @@
 header {
     display: flex;
+    border: solid green 5px;
+}
+
+.navImg {
+    flex: 1;
+    max-width: fit-content;
+}
+
+.navImg img {
+    width: 8em;
 }
 
 .logo {
@@ -14,11 +24,18 @@ body {
 }
 
 .navBar {
-    border: solid green 5px;
+    flex: 3;
+    text-align: center;
+    font-size: 33px;
+    background-color: greenyellow;
 }
 
 image {
     border-radius: 1Spx;
+}
+
+.country_image img {
+    max-width: 40em;
 }
 
 .clz {
