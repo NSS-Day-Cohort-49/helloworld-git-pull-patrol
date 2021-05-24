@@ -1,6 +1,7 @@
 header{
   display: flex;
   border: solid green 5px;
+  max-height: fit-content;
 }
 .navImg{
   flex: 1;
@@ -15,26 +16,33 @@ header{
   font-size: 33px;
   background-color: greenyellow;
 }
-
+main{
+  display: flex;
+  justify-content: space-around;
+}
 .links_images {
   display: flex;
   border: solid green;
+  max-width: fit-content;
 }
 
 .img_column_left {
   display: flex;
   flex-direction: column;
-  border: solid red;
+  width: 30em;
 }
 
 .img_column_middle {
   display: flex;
   flex-direction: column;
-  border: solid blue;
+  max-width: 30em;
 }
 
 .img_column_right {
   display: flex;
   flex-direction: column;
-  border: solid red;
+  max-width: 30em;
+}
+.text_div{
+  text-align: center;
 }
