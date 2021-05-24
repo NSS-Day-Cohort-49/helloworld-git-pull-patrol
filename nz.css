@@ -2,8 +2,7 @@ header {
     display: flex;
 }
 .logo {
- border-radius: 30px;
-
+ border-radius: 20;
 }
 body {
     
