@@ -1,5 +1,6 @@
 header{
   display: flex;
+  border: solid green 5px;
 }
 .navImg{
   flex: 1;
@@ -10,8 +11,9 @@ header{
 }
 .navBar {
   flex: 3;
-  border: solid black;
   text-align: center;
+  font-size: 33px;
+  background-color: greenyellow;
 }
 
 .links_images {
