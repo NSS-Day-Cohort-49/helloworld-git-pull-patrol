@@ -1,44 +1,44 @@
 header {
-    display: flex;
+  display: flex;
 }
 .logo {
- border-radius: 20;
+  border-radius: 20;
 }
 body {
-    
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/New_Zealand_relief_map.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: lightblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
- .navBar {
-    border: solid green 5px;
+.navBar {
+  border: solid green 5px;
 }
-image{
-    border-radius: 1Spx;
+image {
+  border-radius: 1spx;
 }
 
 .clz {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.cities {
-    border: solid green 2px;
-    margin: 5px;
+.info_head {
+  text-align: center;
 }
 
-.landmarks {
-    border: solid green 2px;
-    margin: 5px;
+.info {
+  font-size: 18px;
+  background-color: white;
+  border: solid white 1px;
+  border-radius: 26px;
+  padding: 8px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-.citizens {
-    border: solid green 2px;
-    margin: 5px;
-}
 .name {
-    font-size: 50px;
-    color: crimson;
+  font-size: 50px;
+  color: crimson;
 }
