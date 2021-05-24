@@ -1,23 +1,26 @@
 header {
-  display: flex;
-  border: solid green 5px;
-
+    display: flex;
+    border: solid green 5px;
 }
-.navImg{
+
+.navImg {
     flex: 1;
     max-width: fit-content;
 }
-.navImg img{
+
+.navImg img {
     width: 8em;
 }
+
 .logo {
-  border-radius: 20;
+    border-radius: 20;
 }
+
 body {
-  background-color: lightblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navBar {
@@ -26,34 +29,36 @@ body {
     font-size: 33px;
     background-color: greenyellow;
 }
+
 image {
-  border-radius: 1spx;
+    border-radius: 1spx;
 }
-.country_image img{
+
+.country_image img {
     max-width: 40em;
 }
 
 .clz {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .info_head {
-  text-align: center;
+    text-align: center;
 }
 
 .info {
-  font-size: 18px;
-  background-color: white;
-  border: solid white 1px;
-  border-radius: 26px;
-  padding: 8px;
-  margin: 5px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    background-color: white;
+    border: solid white 1px;
+    border-radius: 26px;
+    padding: 8px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .name {
-  font-size: 50px;
-  color: crimson;
+    font-size: 50px;
+    color: crimson;
 }
