@@ -29,6 +29,9 @@ body {
 image {
   border-radius: 1spx;
 }
+.country_image img{
+    max-width: 40em;
+}
 
 .clz {
   display: flex;
