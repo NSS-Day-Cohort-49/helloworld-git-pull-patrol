@@ -1,13 +1,24 @@
-body {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/New_Zealand_relief_map.jpg);
-    
+header {
+    display: flex;
 }
 
- .navBar {
+.logo {
+    border-radius: 20;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/New_Zealand_relief_map.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar {
     border: solid green 5px;
 }
-image{
-    border-radius: 20px;
+
+image {
+    border-radius: 1Spx;
 }
 
 .clz {
@@ -29,6 +40,7 @@ image{
     border: solid green 2px;
     margin: 5px;
 }
+
 .name {
     font-size: 50px;
     color: crimson;
